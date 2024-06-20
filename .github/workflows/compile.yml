@@ -14,5 +14,4 @@ jobs:
         
     - name: Compile
       run: |
-        cd unleashed-firmware
-        make
+        ./fbt updater_package -I-understand-what-I-am-doing=yes
