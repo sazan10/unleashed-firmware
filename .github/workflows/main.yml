@@ -1,0 +1,17 @@
+name: Linux Build
+
+on: push
+
+jobs:
+  build:
+    name: Build on Ubuntu
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+      with:
+        ref: 8b46e1c202c5ce0655480af7ef9e9a716a534c79
+        
+    - name: Compile
+      run: |
+        ./fbt updater_package
