@@ -14,4 +14,4 @@ jobs:
         
     - name: Compile
       run: |
-        ./fbt updater_package -I-understand-what-I-am-doing=yes
+        ./fbt -y updater_package
