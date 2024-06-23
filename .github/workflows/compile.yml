@@ -14,4 +14,4 @@ jobs:
         
     - name: Compile
       run: |
-        ./fbt COMPACT=1 DEBUG=0 VERBOSE=1 updater_package copro_dist
+        ./fbt COMPACT=1 DEBUG=0 VERBOSE=1 updater_package
