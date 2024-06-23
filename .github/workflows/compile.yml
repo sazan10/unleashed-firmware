@@ -14,4 +14,4 @@ jobs:
         
     - name: Compile
       run: |
-        ./fbt updater_package
+        ./fbt DEBUG=1 updater_package
